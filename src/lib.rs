@@ -225,6 +225,8 @@ fn create_proxied_request<B>(
 
     debug!("Setting headers of proxied request");
 
+    debug!(headers = ?request.headers(), "Original headers");
+
     *request.uri_mut() = uri;
 
     remove_hop_headers(request.headers_mut());
