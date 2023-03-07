@@ -16,7 +16,7 @@ categories = ["network-programming", "web-programming"]
 readme = "README.md"
 edition = "2018"
 
-include = ["Cargo.toml", "LICENSE", "README.md", "src/**/*"]
+include = ["Cargo.toml", "LICENSE", "README.md", "src/**/*", "examples/**/*", "tests/**/*"]
 
 [[bench]]
 name="internal"
